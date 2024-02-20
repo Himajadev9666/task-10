@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: skyblue;
+        
+        }
+        h1{
+            text-align: center;
+
+        }
+    </style>
+
+    </head>
+    <body>
+        
+        <h1> Job Application</h1>
+        <img src="../assets/infosys.png" height="100"/>
+        <form>
+            <h3>Personal Information</h3>
+        <lable for="firstname">Firstname:</lable>
+            <input type="text" id="firstname"  name="username" required/>
+        <label for="secondname">Secondname:</label>
+            <input type="text" id="secondname" name="secondname"/> <br><br>
+        <label for="mail">Email:</label>
+            <input type="email" id="mail" name="mail"> <br><br>
+        <label for="pswdd">Password:</label>
+            <input type="password" id="pawdd" name="paswdd"/>
+            <br><br>
+        <label for="phone">Mobile number:</label>
+            <input type="number" id="phone" name="phone" pattern="[0-9]"/>
+            <br><br>
+        <label for="Date of birth">Date of birth:</label>
+            <input type="date" id="Date of birth" name="Date of birth"/>
+            <br><br>
+        <label for="gender">Gender</label>
+            <input type="radio" id="gender" name="gender" value="female">female
+            <input type="radio" id="gender" name="gender" value="male">Male
+            <input type="radio" id="gender" name="gender" value="others">others
+            <br><br>
+        <label for="address">Permanent address</label>
+            <textarea rows="5" cols="5" id="address" name="address"></textarea>
+            <br><br>
+        <label for="address">State</label>
+            <input type="text" id="address" name="address"/>
+            <br><br>
+        <label for="address">City</label>
+            <input type="text" id="address" name="address">
+            <h3>Education</h3>
+        <label for="Qualification">Qualification</label>
+
+            <select name="qualification" id="qualification" required >
+                <option value="Mba">MBA</option>
+                <option value="btech">Btech</option>
+                <option value="b.com">B.com</option>
+                <option value="Mca">MCA</option>
+            </select>
+        <label for="year">Year of passing</label>
+            <input type="number" id="year" name="year"/>
+            <h3>Skills</h3>
+        <label for="skill">Skills</label>
+            <input type="checkbox" id="skill" name="skill" value="frontend">JAVASCRIPT
+            <input type="checkbox" id="skill" name="skill2" value="NODEJS">NODEJS
+            <input type="checkbox" id="skill" name="skill3" value="google sheets">Google sheets
+            <input type="checkbox" id="skill" name="skill4" value="  Testings">Manual/Automation testings
+            <h3>Work Experience</h3>
+        <label for="experience">Work Experience</label>
+            <select name="work" id="work" required>
+                <option value="a">1</option>
+                <option value="b">2</option>
+            </select>
+            <br><br>
+        <label for="name">Company</label>
+            <input type="text" id="name" name="name"/>
+            <br><br>
+        <label for="position"> Designation</label>
+            <input type="text" id="position" name="position"/> 
+            <h3>Documents</h3>
+        <label for="resume">Upload resume</label>
+            <input type="file" id="resume" name="resume"/>
+            <br><br>
+        <label for="photo">Upload photo</label>
+            <input type="file" id="photo" name="photo"/>
+            <br><br>
+        <label for="document">Other documents</label>
+            <input type="file" id="document" name="document"/><br><br>
+            <input type="submit" value="register"/>
+
+            
+        </form>
+</body>
+</html>
